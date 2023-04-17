@@ -1,7 +1,12 @@
-<section>
-   <a href="">
-    <h3 class="font-lora text-3xl">Albanie - Tirana</h3>
-    <hr>
-    <p class="font-inter">14.04.22 · 17.05.22</p>
-   </a>
+<section class="flex justify-center items-center">
+    <a href="/post" class="w-[80vw] relative">
+        <img src="{{currentPost?.mainPicture}}" alt="Photo de {{currentPost?.city}}" class="w-[80vw]">
+        <div class="flex justify-between items-center bg-orange/[.7] absolute bottom-0 left-0 w-[80vw] p-10">
+            <h3 class="font-lora text-3xl text-white">{{currentPost?.country}} - {{currentPost?.city}}</h3>
+            <div class="flex items-center relative">
+                <hr class="block rotate-90 border-1 border-white w-[115px]">
+                <p class="font-inter text-white whitespace-nowrap">{{currentPost?.startDate | date:'dd.MM.y'}} · {{currentPost?.returnDate | date:'dd.MM.y'}}</p>
+            </div>
+        </div>
+    </a>
 </section>

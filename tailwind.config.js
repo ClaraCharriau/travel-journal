@@ -4,15 +4,16 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    colors: {
-      'orange': '#C96B41',
-      'beige': '#EEDFD4',
-    },
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
       'lora': ['Lora', 'serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'orange': '#C96B41',
+        'beige': '#EEDFD4',
+      },
+    },
   },
   plugins: [],
 }
