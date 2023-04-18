@@ -1,0 +1,9 @@
+h1 {
+    inline-size: 550px;
+}
+
+@media (max-width: 640px) {
+    h1 {
+        inline-size: 0px;
+    }
+}
