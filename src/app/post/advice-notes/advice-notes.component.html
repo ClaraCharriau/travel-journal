@@ -1,1 +1,16 @@
-<p>advice-notes works!</p>
+<h3 class="font-lora text-[28px] md:text-6xl">Notre avis</h3>
+
+<p class="font-lora text-2xl">Les plus</p>
+<ul class="list-disc list-inside">
+    <li *ngFor="let points of currentPost?.positivePoints; index as i">{{currentPost!.positivePoints[i]}}</li>
+</ul>
+
+<p class="font-lora text-2xl">Les moins</p>
+<ul class="list-disc list-inside">
+    <li *ngFor="let points of currentPost?.negativePoints; index as i">{{currentPost!.negativePoints[i]}}</li>
+</ul>
+
+<p class="font-lora text-2xl">Mon conseil</p>
+<ul class="list-disc list-inside">
+    <li *ngFor="let points of currentPost?.advices; index as i">{{currentPost!.advices[i]}}</li>
+</ul>

@@ -1,10 +1,7 @@
 <main>
-<h2>Ville</h2>
-<p>dates</p>
-<img src="/" alt="photo">
-
-<app-text-container></app-text-container>
-<app-advice-notes></app-advice-notes>
-<app-text-container></app-text-container>
-<app-photo-gallery></app-photo-gallery>
+<app-travel-details [currentPost]="currentPost"></app-travel-details>
+<app-text-container [text]="description" [title]="descriptionTitle"></app-text-container>
+<app-advice-notes [currentPost]="currentPost"></app-advice-notes>
+<app-text-container [text]="summary" [title]="summaryTitle"></app-text-container>
+<app-photo-gallery [currentPost]="currentPost"></app-photo-gallery>
 </main>

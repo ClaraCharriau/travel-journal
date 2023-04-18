@@ -12,6 +12,7 @@ import { OtherPostsComponent } from './home/other-posts/other-posts.component';
 import { TextContainerComponent } from './post/text-container/text-container.component';
 import { AdviceNotesComponent } from './post/advice-notes/advice-notes.component';
 import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.component';
+import { TravelDetailsComponent } from './post/travel-details/travel-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.compon
     OtherPostsComponent,
     TextContainerComponent,
     AdviceNotesComponent,
-    PhotoGalleryComponent
+    PhotoGalleryComponent,
+    TravelDetailsComponent
   ],
   imports: [
     BrowserModule,

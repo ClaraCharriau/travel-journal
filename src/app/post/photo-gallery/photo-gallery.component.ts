@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Post } from 'src/app/post';
 
 @Component({
   selector: 'app-photo-gallery',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./photo-gallery.component.css']
 })
 export class PhotoGalleryComponent {
+
+  @Input() currentPost?: Post;
 
 }
