@@ -1,11 +1,10 @@
-<section class="flex justify-center items-center">
-    <a href="/post" class="w-[80vw] relative">
-        <img src="{{currentPost?.mainPicture}}" alt="Photo de {{currentPost?.city}}" class="w-[80vw]">
-        <div class="flex justify-between items-center bg-orange/[.7] absolute bottom-0 left-0 w-[80vw] p-10">
-            <h3 class="font-lora text-3xl text-white">{{currentPost?.country}} - {{currentPost?.city}}</h3>
+<section class="flex justify-center items-center md:ml-40 w-full pb-24 pt-9 md:pt-24">
+    <a href="/post" class="w-[90vw] md:w-[70vw] relative">
+        <img src="{{currentPost?.mainPicture}}" alt="Photo de {{currentPost?.city}}" class="w-[90vw] md:w-[70vw] h-80 md:h-[600px] object-cover">
+        <div class="flex justify-between items-center bg-orange/[.7] absolute bottom-0 left-0 w-[90vw] md:w-[70vw]">
+            <h3 class="text-[15px] font-lora sm:text-[14px] md:text-3xl text-white ml-3 md:ml-12">{{currentPost?.country}} - {{currentPost?.city}}</h3>
             <div class="flex items-center relative">
-                <hr class="block rotate-90 border-1 border-white w-[115px]">
-                <p class="font-inter text-white whitespace-nowrap">{{currentPost?.startDate | date:'dd.MM.y'}} · {{currentPost?.returnDate | date:'dd.MM.y'}}</p>
+                <p class="p-4 pt-7 pb-7 md:p-10 text-xs font-inter text-white whitespace-nowrap border-[1px] border-l-white border-transparent lg:p-12 md:text-base">{{currentPost?.startDate | date:'dd.MM.yy'}} · {{currentPost?.returnDate | date:'dd.MM.yy'}}</p>
             </div>
         </div>
     </a>
