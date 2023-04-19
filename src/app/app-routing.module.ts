@@ -9,13 +9,13 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'post',
+    path: 'post/:id',
     component: PostComponent
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

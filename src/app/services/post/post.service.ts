@@ -21,4 +21,8 @@ export class PostService {
     return POSTS.find(post => post.highlightTravel);
   }
 
+  getOtherPosts(): Post[] {
+    return POSTS.filter(post => !post.highlightTravel);
+  }
+
 }

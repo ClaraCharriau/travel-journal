@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Post } from 'src/app/post';
 
 @Component({
   selector: 'app-advice-notes',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./advice-notes.component.css']
 })
 export class AdviceNotesComponent {
+
+  @Input() currentPost?: Post;
 
 }

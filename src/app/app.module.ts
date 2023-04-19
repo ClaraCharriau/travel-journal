@@ -12,6 +12,9 @@ import { OtherPostsComponent } from './home/other-posts/other-posts.component';
 import { TextContainerComponent } from './post/text-container/text-container.component';
 import { AdviceNotesComponent } from './post/advice-notes/advice-notes.component';
 import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.component';
+import { TravelDetailsComponent } from './post/travel-details/travel-details.component';
+import { ReturnBtnComponent } from './general/return-btn/return-btn.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.compon
     OtherPostsComponent,
     TextContainerComponent,
     AdviceNotesComponent,
-    PhotoGalleryComponent
+    PhotoGalleryComponent,
+    TravelDetailsComponent,
+    ReturnBtnComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
