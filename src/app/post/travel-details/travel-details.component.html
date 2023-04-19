@@ -1,5 +1,5 @@
-<section class="w-[90vw] md:w-[70vw] mb-28">
-    <h2 class="text-[26px] md:text-6xl font-lora mb-3">{{currentPost?.country}} - {{currentPost?.city}}</h2>
+<section class="w-[90vw] md:w-[70vw] mb-20 md:mb-28">
+    <h2 class="text-[26px] md:text-6xl font-lora md:mb-3">{{currentPost?.country}} - {{currentPost?.city}}</h2>
     <p>{{currentPost?.startDate | date:'dd.MM.yy'}} · {{currentPost?.returnDate | date:'dd.MM.yy'}}</p>
-    <img class="my-11" src="{{currentPost?.mainPicture}}" alt="photo">
+    <img class="object-cover my-6 md:my-11 h-[350px] md:h-[70vh] w-full" src="{{currentPost?.mainPicture}}" alt="photo">
 </section>

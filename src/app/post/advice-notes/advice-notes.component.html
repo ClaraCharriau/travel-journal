@@ -1,18 +1,18 @@
-<section class="w-[90vw] md:w-[70vw] mb-28">
+<section class="w-[90vw] md:w-[70vw] mb-24">
     <h3 class="font-lora text-[28px] md:text-6xl mb-7">Notre avis</h3>
 
-    <p class="font-lora text-2xl my-8">Les plus</p>
-    <ul class="list-disc list-inside">
-        <li *ngFor="let points of currentPost?.positivePoints; index as i" class="text-xl">{{currentPost!.positivePoints[i]}}</li>
+    <p *ngIf="currentPost!.positivePoints.length > 0" class="font-lora text-2xl my-8">Les plus</p>
+    <ul *ngIf="currentPost!.positivePoints.length > 0" class="list-disc list-outside">
+        <li *ngFor="let points of currentPost?.positivePoints; index as i" class="text-xl ml-8">{{currentPost!.positivePoints[i]}}</li>
     </ul>
 
-    <p class="font-lora text-2xl my-8">Les moins</p>
-    <ul class="list-disc list-inside">
-        <li *ngFor="let points of currentPost?.negativePoints; index as i" class="text-xl">{{currentPost!.negativePoints[i]}}</li>
+    <p *ngIf="currentPost!.negativePoints.length > 0" class="font-lora text-2xl my-8">Les moins</p>
+    <ul *ngIf="currentPost!.negativePoints.length > 0" class="list-disc list-outside">
+        <li *ngFor="let points of currentPost?.negativePoints; index as i" class="text-xl ml-8">{{currentPost!.negativePoints[i]}}</li>
     </ul>
 
-    <p class="font-lora text-2xl my-8">Mon conseil</p>
-    <ul class="list-disc list-inside">
-        <li *ngFor="let points of currentPost?.advices; index as i" class="text-xl">{{currentPost!.advices[i]}}</li>
+    <p *ngIf="currentPost!.advices.length > 0" class="font-lora text-2xl my-8">Mon conseil</p>
+    <ul *ngIf="currentPost!.advices.length > 0" class="list-disc list-outside">
+        <li *ngFor="let points of currentPost?.advices; index as i" class="text-xl ml-8">{{currentPost!.advices[i]}}</li>
     </ul>
 </section>
