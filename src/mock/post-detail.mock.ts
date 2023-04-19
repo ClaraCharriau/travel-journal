@@ -7,12 +7,31 @@ export const POSTS: Post[] = [
         city: "Faro",
         startDate: new Date("2023-02-09T00:00:00"),
         returnDate: new Date("2023-02-19T00:00:00"),
-        mainPicture: "assets/portugal/portugal.JPG",
-        pictureGallery: ["assets/portugal/portugal-2.JPG", "assets/portugal/portugal-3.jpeg", "assets/portugal/portugal-4.jpeg", "assets/portugal/portugal-5.jpeg"],
+        mainPicture: {
+            img: "assets/portugal/portugal.JPG",
+            altText: "photo du Portugal"
+        },
+        pictureGallery: [
+            {
+                img: "assets/portugal/portugal-2.JPG",
+                altText: "photo du Portugal"
+            },
+            {
+                img: "assets/portugal/portugal-3.jpeg",
+                altText: "photo du Portugal"
+            },
+            {
+                img: "assets/portugal/portugal-4.jpeg",
+                altText: "photo du Portugal"
+            },
+            {
+                img: "assets/portugal/portugal-5.jpeg",
+                altText: "photo du Portugal"
+            }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
         negativePoints: ["Le climat torride en juillet-août, sauf en montagne",
-        "La côte très fréquentée l’été et de plus en plus bétonnée"],
+            "La côte très fréquentée l’été et de plus en plus bétonnée"],
         advices: ["Prenez une paire de tong !"],
         summary: "L’Albanie est un pays que nous avons adoré visiter, en grande partie grâce à l’accueil chaleureux des Albanais, mais pas seulement ! Nous avons découvert une culture fièrement préservée, une variété de paysages captivante et de nombreux coins tranquilles, y compris au mois de juillet. Seule la côte adriatique sature de touristes l’été. Notre conseil, si vous venez à cette saison, serait alors de s’éloigner de la mer et de privilégier les villages et les montagnes dans le reste du pays, où se concentre à notre avis tout le charme de l’Albanie.",
         highlightTravel: true,
@@ -23,8 +42,27 @@ export const POSTS: Post[] = [
         city: "Tenerife",
         startDate: new Date("2022-01-07T00:00:00"),
         returnDate: new Date("2022-01-15T00:00:00"),
-        mainPicture: "assets/espagne/tenerife.jpg",
-        pictureGallery: ["assets/espagne/tenerife-2.jpg", "assets/espagne/tenerife-3.jpg", "assets/espagne/tenerife-4.jpg", "assets/espagne/tenerife-5.jpg"],
+        mainPicture: {
+            img: "assets/espagne/tenerife.jpg",
+            altText: "photo de Tenerife"
+        },
+        pictureGallery: [
+            {
+                img: "assets/espagne/tenerife-2.jpg",
+                altText: "photo de Tenerife"
+            },
+            {
+                img: "assets/espagne/tenerife-3.jpg",
+                altText: "photo de Tenerife"
+            },
+            {
+                img: "assets/espagne/tenerife-4.jpg",
+                altText: "photo de Tenerife"
+            },
+            {
+                img: "assets/espagne/tenerife-5.jpg",
+                altText: "photo de Tenerife"
+            }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
         negativePoints: [],
@@ -38,12 +76,27 @@ export const POSTS: Post[] = [
         city: "Île Tudy",
         startDate: new Date("2022-07-20T00:00:00"),
         returnDate: new Date("2022-07-28T00:00:00"),
-        mainPicture: "assets/france/tudy.jpg",
-        pictureGallery: ["assets/france/tudy-2.jpg", "assets/france/tudy-3.jpg", "assets/france/tudy-4.jpg"],
+        mainPicture: {
+            img: "assets/france/tudy.jpg",
+            altText: "photo du l'île Tudy"
+        },
+        pictureGallery: [
+            {
+                img: "assets/france/tudy-2.jpg",
+                altText: "photo du l'île Tudy"
+            },
+            {
+                img: "assets/france/tudy-3.jpg",
+                altText: "photo du l'île Tudy"
+            },
+            {
+                img: "assets/france/tudy-4.jpg",
+                altText: "photo du l'île Tudy"
+            }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
         negativePoints: ["Le climat torride en juillet-août, sauf en montagne",
-        "La côte très fréquentée l’été et de plus en plus bétonnée"],
+            "La côte très fréquentée l’été et de plus en plus bétonnée"],
         advices: ["Prenez une paire de tong !"],
         summary: "L’Albanie est un pays que nous avons adoré visiter, en grande partie grâce à l’accueil chaleureux des Albanais, mais pas seulement ! Nous avons découvert une culture fièrement préservée, une variété de paysages captivante et de nombreux coins tranquilles, y compris au mois de juillet. Seule la côte adriatique sature de touristes l’été. Notre conseil, si vous venez à cette saison, serait alors de s’éloigner de la mer et de privilégier les villages et les montagnes dans le reste du pays, où se concentre à notre avis tout le charme de l’Albanie.",
         highlightTravel: false,
@@ -54,12 +107,35 @@ export const POSTS: Post[] = [
         city: "Bruxelles",
         startDate: new Date("2021-04-08T00:00:00"),
         returnDate: new Date("2021-04-16T00:00:00"),
-        mainPicture: "assets/belgique/bruxelles-2.JPG",
-        pictureGallery: ["assets/belgique/bruxelles.JPG", "assets/belgique/bruxelles-3.JPG","assets/belgique/bruxelles-4.JPG","assets/belgique/bruxelles-5.JPG","assets/belgique/bruxelles-6.JPG"],
+        mainPicture: {
+            img: "assets/belgique/bruxelles-2.JPG",
+            altText: "photo de Bruxelles"
+        },
+        pictureGallery: [
+            {
+                img: "assets/belgique/bruxelles.JPG",
+                altText: "photo de Bruxelles"
+            },
+            {
+                img: "assets/belgique/bruxelles-3.JPG",
+                altText: "photo de Bruxelles"
+            },
+            {
+                img: "assets/belgique/bruxelles-4.JPG",
+                altText: "photo de Bruxelles"
+            },
+            {
+                img: "assets/belgique/bruxelles-5.JPG",
+                altText: "photo de Bruxelles"
+            },
+            {
+                img: "assets/belgique/bruxelles-6.JPG",
+                altText: "photo de Bruxelles"
+            }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
         negativePoints: ["Le climat torride en juillet-août, sauf en montagne",
-        "La côte très fréquentée l’été et de plus en plus bétonnée"],
+            "La côte très fréquentée l’été et de plus en plus bétonnée"],
         advices: ["Prenez une paire de tong !"],
         summary: "L’Albanie est un pays que nous avons adoré visiter, en grande partie grâce à l’accueil chaleureux des Albanais, mais pas seulement ! Nous avons découvert une culture fièrement préservée, une variété de paysages captivante et de nombreux coins tranquilles, y compris au mois de juillet. Seule la côte adriatique sature de touristes l’été. Notre conseil, si vous venez à cette saison, serait alors de s’éloigner de la mer et de privilégier les villages et les montagnes dans le reste du pays, où se concentre à notre avis tout le charme de l’Albanie.",
         highlightTravel: false,
@@ -70,12 +146,32 @@ export const POSTS: Post[] = [
         city: "Berlin",
         startDate: new Date("2020-01-08T00:00:00"),
         returnDate: new Date("2020-01-15T00:00:00"),
-        mainPicture: "assets/allemagne/berlin.jpg",
-        pictureGallery: ["assets/allemagne/berlin-2.jpg", "assets/allemagne/berlin-3.jpg", "assets/allemagne/berlin-4.jpg", "assets/allemagne/berlin-5.jpg"],
+        mainPicture: {
+            img: "assets/allemagne/berlin.jpg",
+            altText: "photo de Berlin"
+        },
+        pictureGallery: [
+            {
+                img: "assets/allemagne/berlin-2.jpg",
+                altText: "photo de Berlin"
+            },
+            {
+                img: "assets/allemagne/berlin-3.jpg",
+                altText: "photo de Berlin"
+            },
+            {
+                img: "assets/allemagne/berlin-4.jpg",
+                altText: "photo de Berlin"
+            },
+            {
+                img: "assets/allemagne/berlin-5.jpg",
+                altText: "photo de Berlin"
+            }
+        ],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
         negativePoints: ["Le climat torride en juillet-août, sauf en montagne",
-        "La côte très fréquentée l’été et de plus en plus bétonnée"],
+            "La côte très fréquentée l’été et de plus en plus bétonnée"],
         advices: ["Prenez une paire de tong !"],
         summary: "L’Albanie est un pays que nous avons adoré visiter, en grande partie grâce à l’accueil chaleureux des Albanais, mais pas seulement ! Nous avons découvert une culture fièrement préservée, une variété de paysages captivante et de nombreux coins tranquilles, y compris au mois de juillet. Seule la côte adriatique sature de touristes l’été. Notre conseil, si vous venez à cette saison, serait alors de s’éloigner de la mer et de privilégier les villages et les montagnes dans le reste du pays, où se concentre à notre avis tout le charme de l’Albanie.",
         highlightTravel: false,

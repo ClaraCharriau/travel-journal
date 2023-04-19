@@ -1,10 +1,15 @@
 <section class="pb-10 pt-[70px] md:pb-24 md:pt-0">
-    <a routerLink="/post/{{currentPost?.id}}" class="h-[350px] md:h-[600px] w-[90vw] md:w-[70vw] relative overflow-hidden block">
-        <img src="{{currentPost?.mainPicture}}" alt="Photo de {{currentPost?.city}}" class="w-[90vw] md:w-[70vw] h-[350px] md:h-[600px] object-cover hover:scale-110 transition-transform">
+    <a routerLink="/post/{{currentPost?.id}}"
+        class="h-[350px] md:h-[600px] w-[90vw] md:w-[70vw] relative overflow-hidden block">
+        <img src="{{currentPost?.mainPicture?.img}}" alt="{{currentPost?.mainPicture?.altText}}"
+            class="w-[90vw] md:w-[70vw] h-[350px] md:h-[600px] object-cover hover:scale-110 transition-transform">
         <div class="flex justify-between items-center bg-orange/[.7] absolute bottom-0 left-0 w-[90vw] md:w-[70vw]">
-            <h3 class="text-[15px] font-lora sm:text-[14px] md:text-3xl text-white ml-3 md:ml-12">{{currentPost?.country}} - {{currentPost?.city}}</h3>
+            <h3 class="text-[15px] font-lora sm:text-[14px] md:text-3xl text-white ml-3 md:ml-12">
+                {{currentPost?.country}} - {{currentPost?.city}}</h3>
             <div class="flex items-center relative">
-                <p class="p-4 pt-7 pb-7 md:p-10 text-xs font-inter text-white whitespace-nowrap border-[1px] border-l-white border-transparent lg:p-12 md:text-base">{{currentPost?.startDate | date:'dd.MM.yy'}} · {{currentPost?.returnDate | date:'dd.MM.yy'}}</p>
+                <p
+                    class="p-4 pt-7 pb-7 md:p-10 text-xs font-inter text-white whitespace-nowrap border-[1px] border-l-white border-transparent lg:p-12 md:text-base">
+                    {{currentPost?.startDate | date:'dd.MM.yy'}} · {{currentPost?.returnDate | date:'dd.MM.yy'}}</p>
             </div>
         </div>
     </a>

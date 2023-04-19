@@ -1,8 +1,8 @@
 <main>
-<app-return-btn></app-return-btn>
-<app-travel-details [currentPost]="currentPost"></app-travel-details>
-<app-text-container [text]="description" [title]="descriptionTitle"></app-text-container>
-<app-advice-notes [currentPost]="currentPost"></app-advice-notes>
-<app-text-container [text]="summary" [title]="summaryTitle"></app-text-container>
-<app-photo-gallery [currentPost]="currentPost"></app-photo-gallery>
+    <app-return-btn></app-return-btn>
+    <app-travel-details [currentPost]="currentPost"></app-travel-details>
+    <app-text-container [text]="currentPost?.description" [title]="'Le voyage'"></app-text-container>
+    <app-advice-notes [currentPost]="currentPost"></app-advice-notes>
+    <app-text-container [text]="currentPost?.summary" [title]="'En résumé'"></app-text-container>
+    <app-photo-gallery [currentPost]="currentPost"></app-photo-gallery>
 </main>
