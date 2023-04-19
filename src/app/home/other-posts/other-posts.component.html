@@ -1,14 +1,24 @@
 <section class="flex-col pb-24 pt-9 md:pt-24">
     <h2 class="text-3xl font-lora">Autres voyages</h2>
     <div class="flex justify-center items-center mt-9">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 w-[90vw] md:w-[70vw]">
-            <a *ngFor="let travel of posts" routerLink="/post/{{travel.id}}" class="w-[100px] h-[100px]">
-                <p>{{travel.country}}</p>
-                <p>{{travel.city}}</p>
-                <p>Du {{travel.startDate | date:'dd.MM.yy'}}
-                    <br>au {{travel.returnDate | date:'dd.MM.yy'}}
-                </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-11 md:gap-7 w-[90vw] md:w-[70vw]">
+            <a *ngFor="let travel of posts" routerLink="/post/{{travel.id}}" class="w-full h-[350px] md:h-[500px]">
+
+                <img src="{{travel.mainPicture}}" alt="photo de {{travel.city}}" class="object-cover h-72 w-[90vw] md:h-96">
+
+                <div class="bg-orange text-white flex items-center justify-between">
+                    <div class="pl-5 md:p-7">
+                        <p class="font-lora text-xl md:text-2xl">{{travel.country}}</p>
+                        <p class="font-inter text-sm md:text-base">{{travel.city}}</p>
+                    </div>
+                    <p class="font-inter text-xs border-l-[1px] p-5 md:p-8 md:text-base whitespace-nowrap text-right">Du {{travel.startDate | date:'dd.MM.yy'}}
+                        <br>au {{travel.returnDate | date:'dd.MM.yy'}}
+                    </p>
+                </div>
+
             </a>
         </div>
+
     </div>
 </section>

@@ -1,6 +1,6 @@
-<section class="pb-24">
-    <a routerLink="/post/{{currentPost?.id}}" class="w-[90vw] md:w-[70vw] relative">
-        <img src="{{currentPost?.mainPicture}}" alt="Photo de {{currentPost?.city}}" class="w-[90vw] md:w-[70vw] h-80 md:h-[600px] object-cover">
+<section class="md:pb-24 pb-10">
+    <a routerLink="/post/{{currentPost?.id}}" class="h-[350px] w-[90vw] md:w-[70vw] relative">
+        <img src="{{currentPost?.mainPicture}}" alt="Photo de {{currentPost?.city}}" class="w-[90vw] md:w-[70vw] h-[350px] md:h-[600px] object-cover">
         <div class="flex justify-between items-center bg-orange/[.7] absolute bottom-0 left-0 w-[90vw] md:w-[70vw]">
             <h3 class="text-[15px] font-lora sm:text-[14px] md:text-3xl text-white ml-3 md:ml-12">{{currentPost?.country}} - {{currentPost?.city}}</h3>
             <div class="flex items-center relative">
