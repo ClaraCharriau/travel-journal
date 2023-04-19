@@ -13,6 +13,7 @@ import { TextContainerComponent } from './post/text-container/text-container.com
 import { AdviceNotesComponent } from './post/advice-notes/advice-notes.component';
 import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.component';
 import { TravelDetailsComponent } from './post/travel-details/travel-details.component';
+import { ReturnBtnComponent } from './general/return-btn/return-btn.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TravelDetailsComponent } from './post/travel-details/travel-details.com
     TextContainerComponent,
     AdviceNotesComponent,
     PhotoGalleryComponent,
-    TravelDetailsComponent
+    TravelDetailsComponent,
+    ReturnBtnComponent
   ],
   imports: [
     BrowserModule,
