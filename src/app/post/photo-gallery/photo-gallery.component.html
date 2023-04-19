@@ -1,6 +1,7 @@
 <section class="w-[90vw] md:w-[70vw] mb-24 flex flex-col gap-5">
     <h3 class="font-lora text-[28px] md:text-6xl mb-7">Pour voyager un peu plus</h3>
-    <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-        <img *ngFor="let photo of currentPost?.pictureGallery; index as i" src="{{currentPost!.pictureGallery[i]}}" alt="photo de {{currentPost!.city}}" class="block object-cover h-[320px] w-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <img *ngFor="let photo of currentPost?.pictureGallery; index as i" src="{{currentPost!.pictureGallery[i].img}}"
+            alt="{{currentPost!.pictureGallery[i].altText}}" class="block object-cover h-[320px] w-full">
     </div>
 </section>
