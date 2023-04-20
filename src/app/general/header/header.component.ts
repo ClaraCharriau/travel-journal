@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Post } from 'src/app/post';
 import { PostService } from 'src/app/services/post/post.service';
 import { WeatherResponse, WeatherService } from 'src/app/services/weather/weather.service';
@@ -26,7 +25,7 @@ export class HeaderComponent {
   }
 
   getCurrentTemp() {
-    const location = this.currentTravel?.city;
+    const location = this.currentTravel?.city;    
     if(!location) return
 
     const currentTemp = this.weatherService.getCurrentWeather(location);
