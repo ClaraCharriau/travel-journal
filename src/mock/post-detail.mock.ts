@@ -14,19 +14,19 @@ export const POSTS: Post[] = [
         pictureGallery: [
             {
                 img: "assets/portugal/portugal-2.JPG",
-                altText: "photo du Portugal"
+                altText: "photo du bord d'une route"
             },
             {
                 img: "assets/portugal/portugal-3.jpeg",
-                altText: "photo du Portugal"
+                altText: "photo d'une place de Faro"
             },
             {
                 img: "assets/portugal/portugal-4.jpeg",
-                altText: "photo du Portugal"
+                altText: "photo des marais"
             },
             {
                 img: "assets/portugal/portugal-5.jpeg",
-                altText: "photo du Portugal"
+                altText: "photo d'un coucher de soleil à la plage"
             }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
@@ -49,19 +49,19 @@ export const POSTS: Post[] = [
         pictureGallery: [
             {
                 img: "assets/espagne/tenerife-2.jpg",
-                altText: "photo de Tenerife"
+                altText: "photo des rochers dans la mer"
             },
             {
                 img: "assets/espagne/tenerife-3.jpg",
-                altText: "photo de Tenerife"
+                altText: "photo du desert autour du Teide"
             },
             {
                 img: "assets/espagne/tenerife-4.jpg",
-                altText: "photo de Tenerife"
+                altText: "photo du Teide enneigé"
             },
             {
                 img: "assets/espagne/tenerife-5.jpg",
-                altText: "photo de Tenerife"
+                altText: "photo de Teide"
             }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
@@ -78,20 +78,20 @@ export const POSTS: Post[] = [
         returnDate: new Date("2022-07-28T00:00:00"),
         mainPicture: {
             img: "assets/france/tudy.jpg",
-            altText: "photo du l'île Tudy"
+            altText: "photo des falaises bretonnes"
         },
         pictureGallery: [
             {
                 img: "assets/france/tudy-2.jpg",
-                altText: "photo du l'île Tudy"
+                altText: "photo de menhirs"
             },
             {
                 img: "assets/france/tudy-3.jpg",
-                altText: "photo du l'île Tudy"
+                altText: "photo d'un port de plaisance"
             },
             {
                 img: "assets/france/tudy-4.jpg",
-                altText: "photo du l'île Tudy"
+                altText: "photo d'un bord de mer"
             }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
@@ -109,28 +109,28 @@ export const POSTS: Post[] = [
         returnDate: new Date("2021-04-16T00:00:00"),
         mainPicture: {
             img: "assets/belgique/bruxelles-2.JPG",
-            altText: "photo de Bruxelles"
+            altText: "photo d'une rue de Bruxelles"
         },
         pictureGallery: [
             {
                 img: "assets/belgique/bruxelles.JPG",
-                altText: "photo de Bruxelles"
+                altText: "photo de maisons bruxelloises"
             },
             {
                 img: "assets/belgique/bruxelles-3.JPG",
-                altText: "photo de Bruxelles"
+                altText: "photo de building dans le quartier d'affaires"
             },
             {
                 img: "assets/belgique/bruxelles-4.JPG",
-                altText: "photo de Bruxelles"
+                altText: "photo du parc botanique"
             },
             {
                 img: "assets/belgique/bruxelles-5.JPG",
-                altText: "photo de Bruxelles"
+                altText: "photo d'un parc"
             },
             {
                 img: "assets/belgique/bruxelles-6.JPG",
-                altText: "photo de Bruxelles"
+                altText: "photo de coucher de soleil"
             }],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
         positivePoints: ["Un pays très simple à sillonner, sans embrouilles ni complexité", "Des habitants gentils, spontanés et qui cherchent le contact", "Un relief vallonné, offrant de superbes paysages dotés de villages pittoresques"],
@@ -153,19 +153,19 @@ export const POSTS: Post[] = [
         pictureGallery: [
             {
                 img: "assets/allemagne/berlin-2.jpg",
-                altText: "photo de Berlin"
+                altText: "photo du Reichstag"
             },
             {
                 img: "assets/allemagne/berlin-3.jpg",
-                altText: "photo de Berlin"
+                altText: "photo d'un joli bâtiment à Berlin"
             },
             {
                 img: "assets/allemagne/berlin-4.jpg",
-                altText: "photo de Berlin"
+                altText: "photo de la porte de Brandenburg"
             },
             {
                 img: "assets/allemagne/berlin-5.jpg",
-                altText: "photo de Berlin"
+                altText: "photo du toit du Sony Center"
             }
         ],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
