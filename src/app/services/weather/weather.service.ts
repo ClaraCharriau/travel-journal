@@ -25,7 +25,6 @@ export class WeatherService {
 
   getCurrentWeather(location: string): Observable<WeatherResponse> | undefined {
     const url = `${this.url}/${location}/${this.currentDate}/${this.currentDate}?unitGroup=metric&elements=temp&include=fcst%2Ccurrent&key=${this.token}&contentType=json`;
-    console.log(this.http.get(url));
     return this.http.get<WeatherResponse>(url);
   }
 

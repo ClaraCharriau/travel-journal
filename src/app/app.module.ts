@@ -14,8 +14,9 @@ import { AdviceNotesComponent } from './post/advice-notes/advice-notes.component
 import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.component';
 import { TravelDetailsComponent } from './post/travel-details/travel-details.component';
 import { ReturnBtnComponent } from './general/return-btn/return-btn.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { DatePipe } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { DatePipe } from '@angular/common';
     HttpClientModule
   ],
   providers: [
-    DatePipe
+    DatePipe,
+    HttpClient,
   ],
   bootstrap: [AppComponent]
 })

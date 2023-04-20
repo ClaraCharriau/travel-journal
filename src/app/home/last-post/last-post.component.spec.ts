@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LastPostComponent } from './last-post.component';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
 
 describe('LastPostComponent', () => {
   let component: LastPostComponent;
@@ -8,7 +9,8 @@ describe('LastPostComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LastPostComponent ]
+      declarations: [ LastPostComponent ],
+      schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
 
