@@ -1,12 +1,17 @@
 import { TestBed } from '@angular/core/testing';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { WeatherService } from './weather.service';
+import { DatePipe } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
 
 describe('WeatherService', () => {
   let service: WeatherService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [ HttpClientTestingModule ],
+      providers: [ WeatherService, DatePipe ]
+    });
     service = TestBed.inject(WeatherService);
   });
 
