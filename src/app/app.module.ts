@@ -15,6 +15,7 @@ import { PhotoGalleryComponent } from './post/photo-gallery/photo-gallery.compon
 import { TravelDetailsComponent } from './post/travel-details/travel-details.component';
 import { ReturnBtnComponent } from './general/return-btn/return-btn.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DatePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    DatePipe
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
