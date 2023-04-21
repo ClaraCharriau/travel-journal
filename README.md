@@ -6,7 +6,7 @@ A travel blog to share beautiful photos and useful travel tips for photographers
 
 ## Homepage
 
-The homepage shows where the traveler currently is. The header displays the current temperature at this destination. The temperature is updated by the Visual Crossing Weather API (https://www.visualcrossing.com).
+The homepage shows where the traveler currently is. The header displays the current temperature at this destination. The temperature is updated daily by the Visual Crossing Weather API (https://www.visualcrossing.com).
 
 ## Articles
 
