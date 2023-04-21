@@ -1,4 +1,18 @@
-# TravelJournal
+# ✈️ Travel Journal
+
+A travel blog to share beautiful photos and useful travel tips for photographers and globe trotters.
+
+### Production : https://travel-journal-clara.netlify.app
+
+## Homepage
+
+The homepage shows where the traveler currently is. The header displays the current temperature at this destination. The temperature is updated by the Visual Crossing Weather API (https://www.visualcrossing.com).
+
+## Articles
+
+By clicking on a travel on the homepage, the article page shows photos and advices about the selected travel.
+
+## Stack
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
