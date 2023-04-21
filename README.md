@@ -1,5 +1,7 @@
 # ✈️ Travel Journal
 
+![Travel Journal](https://user-images.githubusercontent.com/101406252/233608475-7b8289d7-2238-42ca-80b8-1e59095f453b.jpg)
+
 A travel blog to share beautiful photos and useful travel tips for photographers and globe trotters.
 
 ### Production : https://travel-journal-clara.netlify.app
