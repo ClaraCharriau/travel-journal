@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "travel-journal:build:production"
+              "buildTarget": "travel-journal:build:production"
             },
             "development": {
-              "browserTarget": "travel-journal:build:development"
+              "buildTarget": "travel-journal:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "travel-journal:build"
+            "buildTarget": "travel-journal:build"
           }
         },
         "test": {
@@ -95,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
